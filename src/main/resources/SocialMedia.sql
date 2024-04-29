@@ -2,7 +2,7 @@ drop table if exists message;
 drop table if exists account;
 create table account (
     account_id int primary key auto_increment,
-    username varchar(255) unique,
+    username varchar(255) UNIQUE,
     password varchar(255)
 );
 create table message (
