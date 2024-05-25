@@ -15,7 +15,7 @@ import Util.ConnectionUtil;
 public class SocialMediaDAO {
 
     /**
-     * Retrieves all emssages in the database
+     * Retrieves all messages in the database
      * @return all messages
      */
     public List<Message> getAllMessages(){
